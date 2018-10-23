@@ -108,6 +108,7 @@ public class FirstDayCoding {
             for ( k=1; k<11; k++ ){
                 System.out.print(String.valueOf(i*k)+" ");
             }
+            // Comment
             System.out.print("\n");
         }
     }
