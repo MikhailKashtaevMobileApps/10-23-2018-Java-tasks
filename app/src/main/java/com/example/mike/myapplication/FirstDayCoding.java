@@ -14,7 +14,7 @@ public class FirstDayCoding {
     public static void main(String[] args) {
         FirstDayCoding fdc = new FirstDayCoding();
 
-        ArrayList<String> sl = new ArrayList <String>();
+        ArrayList<String> sl = new ArrayList <>();
         sl.add("a");
         sl.add("b");
         sl.add("c");
@@ -50,13 +50,13 @@ public class FirstDayCoding {
     public void findDuplicates(List<String> a){
         int i;
         String s;
-        HashMap<String, Integer> occurences = new HashMap<String, Integer>();
+        HashMap<String, Integer> occurences = new HashMap<>();
 
         for (i=0; i<a.size(); i++){
             s = a.get(i).toLowerCase();
 
             if ( occurences.containsKey(s) ){
-                if ( occurences.get(s) == 1 ){
+                if (1 == occurences.get(s)){
                     System.out.println(s);
                 }else{
                     occurences.put(s, occurences.get(s) + 1);
