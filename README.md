@@ -5,3 +5,4 @@
 3 fizzbuzz classic
 4 check if anagrams
 5 printing multiplication array
+
