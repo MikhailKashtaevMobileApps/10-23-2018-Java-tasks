@@ -30,6 +30,21 @@ public class FirstDayCoding {
 
         fdc.findDuplicates("qweqwe", "ewqewq");
 
+        String s1 = "qweqwe";
+        String s2 = "qweqwe";
+
+        HashMap<Integer, Integer> hm1 = new HashMap<Integer, Integer>();
+        HashMap<Integer, Integer> hm2 = new HashMap<Integer, Integer>();
+
+        hm1.put(1, 1);
+        hm2.put(1, 1);
+
+        if ( hm1.equals(hm2) ){
+            System.out.println("Equals");
+        }else{
+            System.out.println("Not equals");
+        }
+
     }
 
     public void findDuplicates(List<String> a){
@@ -108,7 +123,6 @@ public class FirstDayCoding {
             for ( k=1; k<11; k++ ){
                 System.out.print(String.valueOf(i*k)+" ");
             }
-            // Comment
             System.out.print("\n");
         }
     }
